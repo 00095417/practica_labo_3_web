@@ -1,5 +1,11 @@
-
-
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 26em;
+}
 table{
     width: 60em;
     height: 60em;
@@ -16,11 +22,11 @@ table{
 }
 .bloque-negro:hover{
     border-left-color: rgb(21, 199, 199); 
-    background-color: rgb(207, 203, 203);
+    background-color: rgba(255, 0, 0, 0.5);
 }
 .bloque-blanco:hover{
     border-left-color: rgb(21, 199, 199); 
-    background-color: rgb(207, 203, 203);
+    background-color: rgba(255, 0, 0, 0.5);
 }
 tr td{
     width: 5em;
@@ -31,4 +37,18 @@ tr td{
 }
 p{
     visibility: hidden;
+}
+.bloque-blanco:hover>p{
+    visibility: visible;
+}
+.bloque-negro:hover>p{
+    visibility: visible;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+    margin-left: 10%;
 }
