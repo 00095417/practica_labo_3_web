@@ -1,0 +1,29 @@
+body{
+    background-color: grey
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+    margin-left: 10%;
+}
+.boton{
+    border: 2px solid #5cace2;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    background-color: #5cace2;
+    color: #fcfbef;
+    border-radius: 5px;
+}
+.boton:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
